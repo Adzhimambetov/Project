@@ -1,6 +1,6 @@
 <template> 
 	<v-container>
-		<v-layout row> 
+		<v-layout> 
 			<v-flex xs12>
 				<h1>Orders</h1> 
 			</v-flex>
