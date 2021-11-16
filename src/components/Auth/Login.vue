@@ -3,7 +3,9 @@
 		<v-layout align-center justify-center> 
 			<v-flex xs12 sm8 md8>
 			<v-card class="elevetion-12">
-				<v-toolbar dark color="primary">Login</v-toolbar>
+				<v-toolbar dark color="primary">
+                   Login
+                </v-toolbar>
 				<v-card-text>
 					<v-form>
 					<v-text-field
@@ -11,14 +13,14 @@
 						name="email" 
                			label="Email" 
                         type="email" 
-                  v-model="email" >
-			</v-text-field>
-	<v-text-field
-      prepend-icon="mdi-lock" 
-      name="password" 
-      label="Password" 
-      type="password" 
-v-model="password" >
+                        v-model="email" >
+					</v-text-field>
+					<v-text-field
+                      prepend-icon="mdi-lock" 
+                      name="password" 
+                      label="Password" 
+                      type="password" 
+                      v-model="password" >
 </v-text-field>
 					</v-form> 
 				</v-card-text>
