@@ -21,7 +21,6 @@
           v-for="link in links" 
           :key="link.title"
           :to="link.url" 
-
           >
             <v-list-item-icon>
               <v-icon>{{ link.icon }}</v-icon>
@@ -45,7 +44,7 @@
     </v-toolbar-items>
   </v-app-bar>
   <v-main>
-    <!--<router-view></router-view>--> 
+  <router-view></router-view> 
   </v-main>
   </v-app>
 </template>
