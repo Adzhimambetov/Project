@@ -6,6 +6,8 @@ import router from '../router/index'
 import store from './store'
 import fb from 'firebase'
 
+
+
 Vue.use(Router)
 Vue.config.productionTip = false
 
@@ -24,8 +26,9 @@ new Vue({
       appId: "1:980477993476:web:3d64786ae00ca4e2a9cb51",
       measurementId: "G-TVR0QNC8XG"
     };
+    
     // Initialize Firebase
-  	fb.initializeApp(firebaseConfig);
-  	fb.analytics();
+    fb.initializeApp(firebaseConfig);
+    fb.analytics();
   },
 }).$mount('#app')
